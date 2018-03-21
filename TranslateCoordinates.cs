@@ -1,4 +1,16 @@
-﻿// use to calculate the coordinates translate from each other
+﻿/*
+ Because I need to provide the indoor navigation assistance in my virtual 3D game environment
+ which represent a real-world environment, it is important to conver the coordinates between 
+ GPS coordinates to Unity coordinates.
+ 
+ This is the algorithm I write to convert these two different coordinates systems with each other.
+ 
+ To make this code work properly, I figure out how unity works and the knowlegde about translate 
+ coordinates.
+ */
+
+
+// use to calculate the coordinates translate from each other
 // gps -> unity
 // unity -> gps
 
