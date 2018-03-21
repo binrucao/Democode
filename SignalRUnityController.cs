@@ -1,4 +1,14 @@
-﻿using System.Collections;
+/*
+This peciece of code implement cross-platform data conntection between Unity and iOS.
+
+I have a Unity game and an iOS mobile application which are both used for indoor 
+localization and navigation, so I start to think if I can share the position information 
+bewteen two applications. I think share data will be useful to create a user-trainner system
+that trainner can track the disabled users' activities in order to provide assistance.
+
+I build the connection use SignalR, this is how I implement is in Unity side.
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using uSignalR.Hubs;
